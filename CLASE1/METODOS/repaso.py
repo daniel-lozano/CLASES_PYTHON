@@ -5,18 +5,22 @@ from sys import argv
 
 #Creando la clase-------------------------------------------------------------------------
 class numero(object):
+    
     "describe el movimiento de una particula en un campo magnetico"
+    
     def __init__(self,num0):
         self.num=num0
     
     def primo(self):
+        
+        pregunta=True
+        
+        for i in range(2,self.num-1):
+            if(self.num//i==self.num/(i*1.0)):
+                pregunta=False
+    
+        self.pri=pregunta
 
-	pri=False
-
-	for i in range(2,self.num-1):
-		if(self.num/(i*1.0) == self.num/i ):
-			pri=True 	
-        self.primo=pri
 
     def C_factorial_val(self):
         a=1.0
@@ -43,8 +47,10 @@ for i in range(len(x)):
 prueba=numero(NUMERO)
 prueba.C_factorial_val()
 prueba.C_factorial_vec()
+prueba.primo()
 
 print(prueba.num)
+print(prueba.pri)
 print(prueba.factorial_val)
 print(prueba.factorial_vec)
 print(x)
