@@ -1,0 +1,17 @@
+Nombre \ Numeral	Examen Parcial 	Tareas 	Laboratorios 	Examen Final 	Nota final 
+CALIFICACIÓN SOBRE -->	5 Puntos	5 Puntos	10 Puntos	20 Puntos	10 Puntos
+Proaño Cristian	4.43	4.73	8.695	15	8.38625
+Layana Lorena 	0	3.04	8.525	11	5.51675
+Jerez Marlon	4.32	4.02	8.65	15	8.1845
+Chingo Crithian	4.32	4.38	8.695	16	8.44725
+Hinojosa Vanessa	2.95	4.46	7.91	14	7.2905
+Andrade Denise	4.32	3.57	7.91	14	7.6605
+Alex Jameth	4.55	4.11	8.65	14	8.1195
+Berrezuela Charlotte	3.07	3.84	5.93	16	6.8715
+Guerrero Andres	4.43	4.02	7.78	16	8.099
+Landazuri Kevin	4.09	1.16	5.93	14	6.3935
+Byron Tipan	4.55	4.29	8.695	15	8.34625
+Sulca Kavir	4.09	3.13	8.525	18	8.39575
+Gurumendi Marlon	3.86	4.29	7.91	15	7.7955
+Sebastian Cortez	3.18	0	7.38	16	6.655
+Bernardo Guerrero	3.98	0	8.3	15	7.122
