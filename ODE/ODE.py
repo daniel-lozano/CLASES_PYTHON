@@ -1,3 +1,4 @@
+s
 import numpy as np
 from scipy.integrate import odeint #solve ODE equations
 import matplotlib.pyplot as plt

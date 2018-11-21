@@ -77,7 +77,7 @@ double f1(double x,double y, double yp, double k){
 	return yp;
 	}
 double f2(double x,double y, double yp, double k){
-    double b=0;
+    double b=0.3;
 	return -pow(k,2)*y-b*yp;
 	}
 

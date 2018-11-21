@@ -17,7 +17,7 @@ double f2(double x,double y, double yp, double k);
 int main() {
     
     int N=10000;
-    double h=2.0*PI/N;
+    double h=4.0*PI/N;
     double x[N],y[N],yp[N];
     double y0=1;
     double yp0=0;
@@ -35,10 +35,10 @@ int main() {
     for(i=0;i<N-1;i++){
         
         k1=h*f1(x[i],y[i],yp[i],k);
-	l1=h*f2(x[i],y[i],yp[i],k);
+        l1=h*f2(x[i],y[i],yp[i],k);
 	
         k2=h*f1(x[i]+0.5*h,y[i]+k1*0.5,yp[i]+l1*0.5,k);
-	l2=h*f2(x[i]+0.5*h,y[i]+k1*0.5,yp[i]+l1*0.5,k);
+        l2=h*f2(x[i]+0.5*h,y[i]+k1*0.5,yp[i]+l1*0.5,k);
 	
 
         k3=h*f1(x[i]+0.5*h,y[i]+k2*0.5,yp[i]+l2*0.5,k);
@@ -49,13 +49,12 @@ int main() {
 	
 
         y[i+1]=(1.0/6)*(k1+2*k2+2*k3+k4)+y[i];
-	yp[i+1]=(1.0/6)*(l1+2*l2+2*l3+l4)+yp[i];
+        yp[i+1]=(1.0/6)*(l1+2*l2+2*l3+l4)+yp[i];
 
-	cout << "y last " << y[i+1] << endl;
-	cout << "yp last " << yp[i+1] << endl;
-	
-        
-        
+//	cout << "y last " << y[i+1] << endl;
+//	cout << "yp last " << yp[i+1] << endl;
+//	
+    
     }
     //imprimiendo en un archivo de salida
     
@@ -77,7 +76,7 @@ double f1(double x,double y, double yp, double k){
 	return yp;
 	}
 double f2(double x,double y, double yp, double k){
-	return -pow(k,2)*y;
+	return -pow(k,2)*y-0.3*yp;
 	}
 
 
